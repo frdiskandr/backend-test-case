@@ -1,5 +1,17 @@
 # Backend Test Case
 
+## menjalankan restAi di local
+clone Project : git ``` git clone https://github.com/frdiskandr/backend-test-case ```
+pindah ke direktori api ``` cd Tect_Test_Backend ```
+install depedensi ``` npm i ```
+buat file .env untuk menyimpan link database mysql
+```
+DATABASE_URL="mysql://user:pass@localhost:port/dbname
+```
+migrasi database ``` npx prisma migrate dev ```
+run project sebagai developer ``` npm run dev ```
+
+
 ## Requirements
 
 - [ ]  it should be use [NestJS](https://nestjs.com/) Framework Or [ExpressJS](https://expressjs.com/) With **TypeScript**
