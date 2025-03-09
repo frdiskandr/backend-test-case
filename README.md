@@ -1,5 +1,11 @@
 # Backend Test Case
 
+## api yang telah di hosting
+```
+https://rest-api-perpus.vercel.app/
+```
+
+
 ## menjalankan restAi di local
 clone Project : git ``` git clone https://github.com/frdiskandr/backend-test-case ```
 pindah ke direktori api ``` cd Tect_Test_Backend ```
